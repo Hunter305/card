@@ -10,7 +10,8 @@ function App() {
       <div className="row">
         {ele.map((value, index) => {
           return (
-            <div className="col-lg-4">
+            
+            <div className="col-lg-4" key={index}>
               <div className="card mb-5 mb-lg-0">
                 <div className="card-body">
                   <h5 className="card-title text-muted text-uppercase text-center">
