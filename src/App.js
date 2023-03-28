@@ -97,7 +97,7 @@ function App() {
                           }`}
                         ></i>
                       </span>
-                      {ele[index].Title == "PRO" ? (
+                      {ele[index].Title === "PRO" ? (
                         <strong>{ele[index].subdomain}</strong>
                       ) : (
                         ele[index].subdomain
